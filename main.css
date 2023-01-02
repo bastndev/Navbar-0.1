@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#1b1c23 ;
+    font-family: 'Poppins', sans-serif;
+}
+/* Design Navbar */
+.hero
+{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    cursor: pointer;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.logo   
+{
+    color: white;
+    font-size: 28px;
+}
+span
+{
+    color: red;
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover
+{
+    color: red;
+    transition: .3s;
+}
+button 
+{
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.hero input#search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #c4c4c4;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: rgb(210, 210, 210);
+    font-weight: bold;
+    padding-right: 50px;
+  }
